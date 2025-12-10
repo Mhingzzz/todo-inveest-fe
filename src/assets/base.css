@@ -72,8 +72,24 @@
   --color-slate-800: oklch(27.9% 0.041 260.031);
   --color-slate-900: oklch(20.8% 0.042 265.755);
   --color-slate-950: oklch(12.9% 0.042 264.695);
-}
+  --color-amber-400: oklch(82.8% 0.189 84.429);
 
+  /* Text Color */
+  --text-color-gray-1: #cbd5e1;
+}
+/* Icon sizes */
+.icon-sm {
+  width: 1rem;
+  height: 1rem;
+}
+.icon-md {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.icon-lg {
+  width: 2rem;
+  height: 2rem;
+}
 /* Semantic color variables for this project */
 :root {
   --color-background: var(--background);

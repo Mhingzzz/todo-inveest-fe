@@ -91,16 +91,6 @@ defineProps<{
   margin-bottom: 1rem;
 }
 
-.icon-sm {
-  width: 1rem;
-  height: 1rem;
-}
-
-.icon-lg {
-  width: 2rem;
-  height: 2rem;
-}
-
 .sparkles-icon {
   color: #c084fc;
 }
@@ -148,6 +138,6 @@ defineProps<{
 }
 
 .goal-text {
-  color: #cbd5e1;
+  color: var(--text-color-gray-1);
 }
 </style>

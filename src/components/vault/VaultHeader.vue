@@ -30,11 +30,6 @@ import { Lock } from 'lucide-vue-next'
   );
 }
 
-.icon-md {
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
 .header-title {
   font-size: 1.25rem;
 }

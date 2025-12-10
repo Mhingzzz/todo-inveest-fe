@@ -1,12 +1,14 @@
 <script setup lang="ts">
 import VaultHeader from '@/components/vault/VaultHeader.vue'
 import VaultStatusCard from '@/components/vault/VaultStatusCard.vue'
+import VaultTodayQuest from '@/components/vault/VaultTodayQuest.vue'
 </script>
 
 <template>
   <div class="vault-home-layout">
     <VaultHeader />
     <VaultStatusCard :locked-amount="1250.0" :goal-amount="100" currency="THB" />
+    <VaultTodayQuest />
   </div>
 </template>
 
